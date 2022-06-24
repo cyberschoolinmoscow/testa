@@ -1,14 +1,16 @@
-package com.cy.myappauth;
+package com.cy.myappauth.view;
 
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class MainMenuActivity extends AppCompatActivity {
+import com.cy.myappauth.R;
+
+public class FridgeActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_menu);
+        setContentView(R.layout.activity_fridge);
     }
 }

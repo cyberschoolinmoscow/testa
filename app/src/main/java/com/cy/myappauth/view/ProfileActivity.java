@@ -1,8 +1,10 @@
-package com.cy.myappauth;
+package com.cy.myappauth.view;
+
+import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.os.Bundle;
+import com.cy.myappauth.R;
 
 public class ProfileActivity extends AppCompatActivity {
 

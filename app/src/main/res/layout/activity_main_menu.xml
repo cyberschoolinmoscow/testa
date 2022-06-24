@@ -1,9 +1,187 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainMenuActivity">
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="817dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonPU"
+                android:layout_width="119dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="#64A01E"
+                android:text="x3"
+                android:textColor="#FFFFFF" />
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:backgroundTint="#64A01E"
+                android:contentDescription="todo"
+                android:padding="20dp"
+                android:scaleType="fitCenter"
+                tools:srcCompat="@tools:sample/backgrounds/scenic[8]" />
+
+
+            <ImageButton
+                android:id="@+id/profileBtn"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:backgroundTint="#64A01E"
+                android:contentDescription="odo"
+                android:padding="20dp"
+                android:scaleType="fitCenter"
+                tools:srcCompat="@drawable/cooking" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/planBtn1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#4CAF50"
+                android:text="Выбирай"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/shopBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#4CAF50"
+                android:text="Составляй список"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/basketBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#4CAF50"
+                android:text="Покупай"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/cookBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#4CAF50"
+                android:text="Готовь"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/webBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#4CAF50"
+                android:text="SIte"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/testText"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="textviewdrhtfjygkuhijlk_lnkiuytrfrdtyubjlnkkuytdr"
+                android:textSize="18sp"
+                tools:visibility="invisible" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:flow_wrapMode="none"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <ImageButton
+            android:id="@+id/planBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:backgroundTint="#64A01E"
+            android:contentDescription="todo"
+            android:padding="20dp"
+            android:scaleType="fitCenter"
+            android:src="@android:drawable/ic_menu_search"
+            tools:srcCompat="?android:attr/actionModeWebSearchDrawable" />
+
+        <ImageButton
+            android:id="@+id/profileBtn2"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:backgroundTint="#64A01E"
+            android:contentDescription="odo"
+            android:padding="20dp"
+            android:scaleType="fitCenter"
+            android:src="?attr/actionModePasteDrawable"
+            tools:srcCompat="?attr/actionModePasteDrawable" />
+
+        <ImageButton
+            android:id="@+id/imageButton41"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:backgroundTint="#64A01E"
+            android:contentDescription="todo"
+            android:padding="20dp"
+            android:scaleType="fitCenter"
+            android:src="@android:drawable/ic_dialog_dialer"
+            tools:srcCompat="@android:drawable/ic_dialog_dialer" />
+
+        <ImageButton
+            android:id="@+id/profileBtn3"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:backgroundTint="#64A01E"
+            android:contentDescription="odo"
+            android:padding="20dp"
+            android:scaleType="fitCenter"
+            android:src="?android:attr/actionModeFindDrawable"
+            tools:srcCompat="?android:attr/actionModeFindDrawable" />
+
+        <ImageButton
+            android:id="@+id/profileBtn4"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:backgroundTint="#64A01E"
+            android:contentDescription="odo"
+            android:padding="20dp"
+            android:scaleType="fitCenter"
+            android:src="@android:drawable/ic_menu_view"
+            tools:srcCompat="@android:drawable/ic_menu_view" />
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -14,11 +14,34 @@
         android:theme="@style/Theme.AppCompat.DayNight"
         tools:targetApi="31">
         <activity
-            android:name=".MainMenuActivity"
+            android:name=".view.CrudActivity"
             android:exported="false" />
-
         <activity
-            android:name=".MainActivity"
+            android:name=".view.BasketActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.ShopActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.WebActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.DishActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.CookActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.FridgeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.MainMenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

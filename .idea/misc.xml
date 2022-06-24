@@ -8,8 +8,16 @@
         <entry key="..\:/Users/Admin/AndroidStudioProjects/testa/app/src/main/res/drawable/ic_firebase_logo.xml" value="0.226" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/testa/app/src/main/res/drawable/ic_im_background.xml" value="0.226" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/testa/app/src/main/res/drawable/ic_launcher_background.xml" value="0.196" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/testa/app/src/main/res/layout/activity_crud.xml" value="0.18802083333333333" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/testa/app/src/main/res/layout/activity_main.xml" value="0.18802083333333333" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/testa/app/src/main/res/layout/activity_main_menu.xml" value="0.22780797101449277" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/testa/app/src/main/res/layout/activity_shop.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/testa/app/src/main/res/layout/activity_web.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/testa/app/src/main/res/layout/content_main.xml" value="0.18697916666666667" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/testa/app/src/main/res/layout/item_task.xml" value="0.2269021739130435" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/testa/app/src/main/res/menu/menu_crud.xml" value="0.140234375" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/testa/app/src/main/res/menu/menu_main.xml" value="0.18697916666666667" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/testa/app/src/main/res/menu/popupmenu.xml" value="0.365625" />
       </map>
     </option>
   </component>

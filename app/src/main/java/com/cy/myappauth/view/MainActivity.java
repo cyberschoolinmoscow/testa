@@ -1,4 +1,4 @@
-package com.cy.myappauth;
+package com.cy.myappauth.view;
 
 
 import android.content.Intent;
@@ -13,6 +13,8 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.cy.myappauth.R;
+import com.cy.myappauth.userDataTest;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;
@@ -79,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
     DatabaseReference reference;
     FirebaseFirestore db ;
     private void TestAct() {
-        String userTofind=userDataTest.userName;
+        String userTofind= userDataTest.userName;
     }
 
     public void SignInGoogle() {
