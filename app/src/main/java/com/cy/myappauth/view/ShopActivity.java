@@ -18,6 +18,8 @@ import com.cy.myappauth.mvp.AppActivity;
 import com.cy.myappauth.mvp.OverviewPresenterImplementation;
 import com.cy.myappauth.remote.RemoteServiceImplementation;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.ArrayList;
 import java.util.Map;
@@ -110,6 +112,10 @@ fab=findViewById(R.id.fab);
 
         @Override
         public void showAddItem() {
+            FirebaseDatabase database = FirebaseDatabase.getInstance();
+            DatabaseReference myRef = database.getReference("message");
+
+            myRef.setValue("Hello, World!");
             startActivity(new Intent(getApplicationContext(), CrudActivity.class));
         }
 
